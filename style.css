@@ -15,10 +15,16 @@ body {
     width: 30rem;
 }
 
-.questionFooter {
+.countAndButton {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     padding: 0px 16px 16px 16px;
 }
 
@@ -37,6 +43,12 @@ body {
 
 .bg-danger, .bg-success {
     color: white !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* CSS TOOLS *//* CSS TOOLS *//* CSS TOOLS */
